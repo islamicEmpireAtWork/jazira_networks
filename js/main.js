@@ -266,75 +266,35 @@ var backgroundSitesLayer = L.geoJson(sites, {
 
 function setIconSize() {
   for (i = 0; i < marwanid.length; i++) {
-    if (marwanid[i].properties.Importance == "Site") {
-        marwanid[i].properties.radius = 4;
-    } else if (marwanid[i].properties.Importance == "District capital") {
-        marwanid[i].properties.radius = 8;
-    } else if (marwanid[i].properties.Importance == "Sub-region capital") {
-        marwanid[i].properties.radius = 12;
-    } else if (marwanid[i].properties.Importance == "Provincial capital") {
-        marwanid[i].properties.radius = 16;
-    } else if (marwanid[i].properties.Importance == "Super-provincial capital") {
+    if (marwanid[i].properties.transliterated_name == "Ṭūr ʿAbdīn (Mountainous area)" || marwanid[i].properties.transliterated_name == "Shahrazūr (Plain)") {
         marwanid[i].properties.radius = 20;
     } else {
         marwanid[i].properties.radius = 12;
     }
   }
   for (i = 0; i < mansurHarun.length; i++) {
-    if (mansurHarun[i].properties.Importance == "Site") {
-        mansurHarun[i].properties.radius = 4;
-    } else if (mansurHarun[i].properties.Importance == "District capital") {
-        mansurHarun[i].properties.radius = 8;
-    } else if (mansurHarun[i].properties.Importance == "Sub-region capital") {
-        mansurHarun[i].properties.radius = 12;
-    } else if (mansurHarun[i].properties.Importance == "Provincial capital") {
-        mansurHarun[i].properties.radius = 16;
-    } else if (mansurHarun[i].properties.Importance == "Super-provincial capital") {
+		if (mansurHarun[i].properties.transliterated_name == "Ṭūr ʿAbdīn (Mountainous area)" || mansurHarun[i].properties.transliterated_name == "Shahrazūr (Plain)") {
         mansurHarun[i].properties.radius = 20;
     } else {
         mansurHarun[i].properties.radius = 12;
     }
   }
   for (i = 0; i < alMamun.length; i++) {
-    if (alMamun[i].properties.Importance == "Site") {
-        alMamun[i].properties.radius = 4;
-    } else if (alMamun[i].properties.Importance == "District capital") {
-        alMamun[i].properties.radius = 8;
-    } else if (alMamun[i].properties.Importance == "Sub-region capital") {
-        alMamun[i].properties.radius = 12;
-    } else if (alMamun[i].properties.Importance == "Provincial capital") {
-        alMamun[i].properties.radius = 16;
-    } else if (alMamun[i].properties.Importance == "Super-provincial capital") {
+		if (alMamun[i].properties.transliterated_name == "Ṭūr ʿAbdīn (Mountainous area)" || alMamun[i].properties.transliterated_name == "Shahrazūr (Plain)") {
         alMamun[i].properties.radius = 20;
     } else {
         alMamun[i].properties.radius = 12;
     }
   }
 	for (i = 0; i < samarra.length; i++) {
-    if (samarra[i].properties.Importance == "Site") {
-        samarra[i].properties.radius = 4;
-    } else if (samarra[i].properties.Importance == "District capital") {
-        samarra[i].properties.radius = 8;
-    } else if (samarra[i].properties.Importance == "Sub-region capital") {
-        samarra[i].properties.radius = 12;
-    } else if (samarra[i].properties.Importance == "Provincial capital") {
-        samarra[i].properties.radius = 16;
-    } else if (samarra[i].properties.Importance == "Super-provincial capital") {
+		if (samarra[i].properties.transliterated_name == "Ṭūr ʿAbdīn (Mountainous area)" || samarra[i].properties.transliterated_name == "Shahrazūr (Plain)") {
         samarra[i].properties.radius = 20;
     } else {
         samarra[i].properties.radius = 12;
     }
   }
   for (i = 0; i < alMutadid.length; i++) {
-    if (alMutadid[i].properties.Importance == "Site") {
-        alMutadid[i].properties.radius = 4;
-    } else if (alMutadid[i].properties.Importance == "District capital") {
-        alMutadid[i].properties.radius = 8;
-    } else if (alMutadid[i].properties.Importance == "Sub-region capital") {
-        alMutadid[i].properties.radius = 12;
-    } else if (alMutadid[i].properties.Importance == "Provincial capital") {
-        alMutadid[i].properties.radius = 16;
-    } else if (alMutadid[i].properties.Importance == "Provincial capital") {
+		if (alMutadid[i].properties.transliterated_name == "Ṭūr ʿAbdīn (Mountainous area)" || alMutadid[i].properties.transliterated_name == "Shahrazūr (Plain)") {
         alMutadid[i].properties.radius = 20;
     } else {
         alMutadid[i].properties.radius = 12;

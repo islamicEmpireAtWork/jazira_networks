@@ -974,7 +974,7 @@ var alMamun = [
     },
     "properties": {
     "kml_input_name":"ثورعبين",
-    "transliterated_name":"Ṭūr ʿAbdīn",
+    "transliterated_name":"Ṭūr ʿAbdīn (Mountainous area)",
     "Name":"طورعبين",
     "Standardised transliterated name":"",
     "standardized_name":"",
@@ -3836,7 +3836,7 @@ var alMamunWdio = [
     },
     "properties": {
     "kml_input_name":"ثورعبين",
-    "transliterated_name":"Ṭūr ʿAbdīn",
+    "transliterated_name":"Ṭūr ʿAbdīn (Mountainous area)",
     "Name":"طورعبين",
     "Standardised transliterated name":"",
     "standardized_name":"",
